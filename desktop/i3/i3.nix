@@ -8,6 +8,7 @@ in {
       modifier = mod;
        keybindings = lib.mkOptionDefault {
         "${mod}+Return" = "exec alacritty";  
+        "${mod}+I" = "exec firefox";
       };
     };
   };
