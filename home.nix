@@ -6,6 +6,7 @@
     ./desktop/i3/i3.nix
     ./desktop/common/alacritty.nix
     ./desktop/common/firefox.nix
+    ./desktop/common/picom.nix
   ];
   
   home.stateVersion = "24.05";
