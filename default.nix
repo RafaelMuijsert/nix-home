@@ -8,7 +8,7 @@
   
   users.users.rafael = {
     isNormalUser = true;
-    extraGroups = [ "wheel", "networkmanager", "video"];
+    extraGroups = [ "wheel" "networkmanager" "video"];
     shell = pkgs.fish;
   };
 }
