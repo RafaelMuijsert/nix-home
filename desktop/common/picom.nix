@@ -1,3 +1,9 @@
 {
-  services.picom.enable = true;
+  services.picom = {
+    enable = true;
+    settings = {
+      backend = "xrender";
+      vsync = true;
+    };
+  };
 }

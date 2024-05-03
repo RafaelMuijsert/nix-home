@@ -1,4 +1,4 @@
-{ lib, ... }:
+{ lib, pkgs, ... }:
 let 
   mod = "Mod1";
 in {
@@ -10,6 +10,12 @@ in {
         "${mod}+Return" = "exec alacritty";  
         "${mod}+I" = "exec firefox";
       };
+      bars = [
+        {
+          position = "top";
+          statusCommand = "${pkgs.i3status-rust}";
+        }
+      ];
     };
   };
 }
