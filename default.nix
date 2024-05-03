@@ -16,4 +16,5 @@
     extraGroups = ["wheel" "networkmanager" "video"];
     shell = pkgs.fish;
   };
+  home-manager.users.rafael = import ./home.nix;
 }
