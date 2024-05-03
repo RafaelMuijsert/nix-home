@@ -5,6 +5,7 @@
   imports = [
     ./desktop/i3/i3.nix
     ./desktop/common/alacritty.nix
+    ./desktop/common/firefox.nix
   ];
   
   home.stateVersion = "24.05";
